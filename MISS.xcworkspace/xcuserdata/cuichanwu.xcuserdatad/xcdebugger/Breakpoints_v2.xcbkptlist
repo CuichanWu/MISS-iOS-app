@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "11F18C42-515A-43FC-B265-DD5362BD3911"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0B1E644-AE1F-4B8C-9610-2D625D7757AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MISS/Controllers/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ChatViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "D0B1E644-AE1F-4B8C-9610-2D625D7757AE - 18f68fe4cd67f5d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MISS.ChatViewController.tableView.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "MISS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cuichanwu/Desktop/Development/MISS/MISS/Controllers/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "D0B1E644-AE1F-4B8C-9610-2D625D7757AE - 8676b4c44355f1d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MISS.ChatViewController.tableView.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "MISS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cuichanwu/Desktop/Development/MISS/MISS/Controllers/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "D0B1E644-AE1F-4B8C-9610-2D625D7757AE - c3141c89942f4aa9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MISS.ChatViewController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "MISS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cuichanwu/Desktop/Development/MISS/MISS/Controllers/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "D0B1E644-AE1F-4B8C-9610-2D625D7757AE - 96a389349fe66570"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MISS.ChatViewController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MISS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cuichanwu/Desktop/Development/MISS/MISS/Controllers/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "D0B1E644-AE1F-4B8C-9610-2D625D7757AE - 993c78d7c1fd2d62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MISS.ChatViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MISS.ChatViewController"
+                  moduleName = "MISS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cuichanwu/Desktop/Development/MISS/MISS/Controllers/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "D0B1E644-AE1F-4B8C-9610-2D625D7757AE - f5e301877e40a23c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MISS.ChatViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MISS.ChatViewController&gt;"
+                  moduleName = "MISS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cuichanwu/Desktop/Development/MISS/MISS/Controllers/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

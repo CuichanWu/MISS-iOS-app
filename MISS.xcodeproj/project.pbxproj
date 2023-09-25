@@ -7,23 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28773D27B81CD666864B0ED0 /* Pods_MISS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C9061B735F2B8190C25D79 /* Pods_MISS.framework */; };
 		363DAF0C2AB579990006B086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363DAF0B2AB579990006B086 /* AppDelegate.swift */; };
 		363DAF0E2AB579990006B086 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363DAF0D2AB579990006B086 /* SceneDelegate.swift */; };
-		363DAF102AB579990006B086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363DAF0F2AB579990006B086 /* ViewController.swift */; };
 		363DAF132AB579990006B086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363DAF112AB579990006B086 /* Main.storyboard */; };
 		363DAF152AB5799A0006B086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363DAF142AB5799A0006B086 /* Assets.xcassets */; };
 		363DAF182AB5799A0006B086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363DAF162AB5799A0006B086 /* LaunchScreen.storyboard */; };
+		363DAF222AB6ABFA0006B086 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363DAF212AB6ABFA0006B086 /* WelcomeViewController.swift */; };
+		363DAF292AB6B7740006B086 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363DAF282AB6B7740006B086 /* RegisterViewController.swift */; };
+		363DAF2B2AB6B79A0006B086 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363DAF2A2AB6B79A0006B086 /* LogInViewController.swift */; };
+		363DAF2D2AB6BDB20006B086 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363DAF2C2AB6BDB20006B086 /* WeatherViewController.swift */; };
+		363DAF2F2AB7BA5B0006B086 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 363DAF2E2AB7BA5B0006B086 /* GoogleService-Info.plist */; };
+		363DAF312AB7EA190006B086 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363DAF302AB7EA190006B086 /* ChatViewController.swift */; };
+		363DAF332AB911E70006B086 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363DAF322AB911E70006B086 /* Constants.swift */; };
+		36DCFA602AB9423D00F93061 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DCFA5F2AB9423D00F93061 /* Message.swift */; };
+		36DCFA632AB96FAA00F93061 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DCFA612AB96FAA00F93061 /* MessageCell.swift */; };
+		36DCFA642AB96FAA00F93061 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36DCFA622AB96FAA00F93061 /* MessageCell.xib */; };
+		36DCFA672ABA80F300F93061 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 36DCFA662ABA80F300F93061 /* IQKeyboardManagerSwift */; };
+		36DCFA6F2ABFA63400F93061 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DCFA6E2ABFA63400F93061 /* WeatherData.swift */; };
+		36DCFA712ABFA66C00F93061 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DCFA702ABFA66C00F93061 /* WeatherManager.swift */; };
+		36DCFA732ABFA6A300F93061 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DCFA722ABFA6A300F93061 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		291059CDC5C1A9B57D366AE9 /* Pods-MISS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MISS.release.xcconfig"; path = "Target Support Files/Pods-MISS/Pods-MISS.release.xcconfig"; sourceTree = "<group>"; };
+		35BC5337A5B162DE2CCDA931 /* Pods-MISS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MISS.debug.xcconfig"; path = "Target Support Files/Pods-MISS/Pods-MISS.debug.xcconfig"; sourceTree = "<group>"; };
 		363DAF082AB579990006B086 /* MISS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MISS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		363DAF0B2AB579990006B086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		363DAF0D2AB579990006B086 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		363DAF0F2AB579990006B086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		363DAF122AB579990006B086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		363DAF142AB5799A0006B086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		363DAF172AB5799A0006B086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		363DAF192AB5799A0006B086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363DAF212AB6ABFA0006B086 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		363DAF282AB6B7740006B086 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		363DAF2A2AB6B79A0006B086 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		363DAF2C2AB6BDB20006B086 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		363DAF2E2AB7BA5B0006B086 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		363DAF302AB7EA190006B086 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		363DAF322AB911E70006B086 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		36DCFA5F2AB9423D00F93061 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		36DCFA612AB96FAA00F93061 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		36DCFA622AB96FAA00F93061 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		36DCFA6E2ABFA63400F93061 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		36DCFA702ABFA66C00F93061 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		36DCFA722ABFA6A300F93061 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		D2C9061B735F2B8190C25D79 /* Pods_MISS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MISS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28773D27B81CD666864B0ED0 /* Pods_MISS.framework in Frameworks */,
+				36DCFA672ABA80F300F93061 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +73,8 @@
 			children = (
 				363DAF0A2AB579990006B086 /* MISS */,
 				363DAF092AB579990006B086 /* Products */,
+				6676053B4C1663C35E423E07 /* Pods */,
+				77B489B2777F50AECD3A6EE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +91,66 @@
 			children = (
 				363DAF0B2AB579990006B086 /* AppDelegate.swift */,
 				363DAF0D2AB579990006B086 /* SceneDelegate.swift */,
-				363DAF0F2AB579990006B086 /* ViewController.swift */,
-				363DAF112AB579990006B086 /* Main.storyboard */,
+				36DCFA5E2AB941FF00F93061 /* Models */,
+				363DAF342AB941B70006B086 /* Views */,
+				363DAF232AB6AC4D0006B086 /* Controllers */,
 				363DAF142AB5799A0006B086 /* Assets.xcassets */,
 				363DAF162AB5799A0006B086 /* LaunchScreen.storyboard */,
 				363DAF192AB5799A0006B086 /* Info.plist */,
+				363DAF2E2AB7BA5B0006B086 /* GoogleService-Info.plist */,
+				363DAF322AB911E70006B086 /* Constants.swift */,
 			);
 			path = MISS;
+			sourceTree = "<group>";
+		};
+		363DAF232AB6AC4D0006B086 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				363DAF212AB6ABFA0006B086 /* WelcomeViewController.swift */,
+				363DAF282AB6B7740006B086 /* RegisterViewController.swift */,
+				363DAF2A2AB6B79A0006B086 /* LogInViewController.swift */,
+				363DAF2C2AB6BDB20006B086 /* WeatherViewController.swift */,
+				363DAF302AB7EA190006B086 /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		363DAF342AB941B70006B086 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				363DAF112AB579990006B086 /* Main.storyboard */,
+				36DCFA612AB96FAA00F93061 /* MessageCell.swift */,
+				36DCFA622AB96FAA00F93061 /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		36DCFA5E2AB941FF00F93061 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36DCFA5F2AB9423D00F93061 /* Message.swift */,
+				36DCFA6E2ABFA63400F93061 /* WeatherData.swift */,
+				36DCFA702ABFA66C00F93061 /* WeatherManager.swift */,
+				36DCFA722ABFA6A300F93061 /* WeatherModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6676053B4C1663C35E423E07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35BC5337A5B162DE2CCDA931 /* Pods-MISS.debug.xcconfig */,
+				291059CDC5C1A9B57D366AE9 /* Pods-MISS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		77B489B2777F50AECD3A6EE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2C9061B735F2B8190C25D79 /* Pods_MISS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +160,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 363DAF1C2AB5799A0006B086 /* Build configuration list for PBXNativeTarget "MISS" */;
 			buildPhases = (
+				A925BDED6DBAA7DF870C7B72 /* [CP] Check Pods Manifest.lock */,
 				363DAF042AB579990006B086 /* Sources */,
 				363DAF052AB579990006B086 /* Frameworks */,
 				363DAF062AB579990006B086 /* Resources */,
+				4C91C88FA8829505EE9524A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MISS;
+			packageProductDependencies = (
+				36DCFA662ABA80F300F93061 /* IQKeyboardManagerSwift */,
+			);
 			productName = MISS;
 			productReference = 363DAF082AB579990006B086 /* MISS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +202,9 @@
 				Base,
 			);
 			mainGroup = 363DAEFF2AB579980006B086;
+			packageReferences = (
+				36DCFA652ABA80F300F93061 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 363DAF092AB579990006B086 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +219,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DCFA642AB96FAA00F93061 /* MessageCell.xib in Resources */,
 				363DAF182AB5799A0006B086 /* LaunchScreen.storyboard in Resources */,
+				363DAF2F2AB7BA5B0006B086 /* GoogleService-Info.plist in Resources */,
 				363DAF152AB5799A0006B086 /* Assets.xcassets in Resources */,
 				363DAF132AB579990006B086 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +229,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C91C88FA8829505EE9524A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MISS/Pods-MISS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MISS/Pods-MISS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MISS/Pods-MISS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A925BDED6DBAA7DF870C7B72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MISS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		363DAF042AB579990006B086 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				363DAF102AB579990006B086 /* ViewController.swift in Sources */,
+				363DAF292AB6B7740006B086 /* RegisterViewController.swift in Sources */,
+				36DCFA632AB96FAA00F93061 /* MessageCell.swift in Sources */,
+				363DAF2D2AB6BDB20006B086 /* WeatherViewController.swift in Sources */,
+				363DAF2B2AB6B79A0006B086 /* LogInViewController.swift in Sources */,
+				36DCFA602AB9423D00F93061 /* Message.swift in Sources */,
+				36DCFA732ABFA6A300F93061 /* WeatherModel.swift in Sources */,
+				36DCFA6F2ABFA63400F93061 /* WeatherData.swift in Sources */,
+				36DCFA712ABFA66C00F93061 /* WeatherManager.swift in Sources */,
+				363DAF312AB7EA190006B086 /* ChatViewController.swift in Sources */,
+				363DAF222AB6ABFA0006B086 /* WelcomeViewController.swift in Sources */,
 				363DAF0C2AB579990006B086 /* AppDelegate.swift in Sources */,
 				363DAF0E2AB579990006B086 /* SceneDelegate.swift in Sources */,
+				363DAF332AB911E70006B086 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +430,7 @@
 		};
 		363DAF1D2AB5799A0006B086 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35BC5337A5B162DE2CCDA931 /* Pods-MISS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,8 +442,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +460,7 @@
 		};
 		363DAF1E2AB5799A0006B086 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291059CDC5C1A9B57D366AE9 /* Pods-MISS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,8 +472,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +510,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36DCFA652ABA80F300F93061 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36DCFA662ABA80F300F93061 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36DCFA652ABA80F300F93061 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 363DAF002AB579990006B086 /* Project object */;
 }
